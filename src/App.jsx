@@ -58,9 +58,9 @@ function App() {
     });
 
     gsap.to(".character", {
-      scale: 1.4,
+      scale: 0.5,
       x: "-50%",
-      bottom: "-25%",
+      bottom: "-40%",
       rotate: 0,
       duration: 2,
       delay: "-.8",
@@ -107,7 +107,7 @@ function App() {
                   fill="white"
                   dominantBaseline="middle"
                   fontFamily="Arial Black"
-                  // i can change this font 
+                  // i can change this font   
                 >
                   VI
                 </text>
@@ -151,12 +151,12 @@ function App() {
                 alt=""
               />
               <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
-                <h1 className="text-[12rem] leading-none -ml-40">grand</h1>
-                <h1 className="text-[12rem] leading-none ml-20">theft</h1>
-                <h1 className="text-[12rem] leading-none -ml-40">auto</h1>
+                <h1 className="text-[10rem] leading-none -ml-40">grand</h1>
+                <h1 className="text-[10rem] leading-none ml-20">theft</h1>
+                <h1 className="text-[10rem] leading-none -ml-40">auto</h1>
               </div>
               <img
-                className="absolute character -bottom-[150%] left-1/2 -translate-x-1/2  scale-[3] rotate-[-20deg]"
+                className="absolute character -bottom-[150%] left-1/2 -translate-x-1/2  scale-[2] rotate-[-20deg]"
                 src="./girlbg.png"
                 alt=""
               />
@@ -179,35 +179,20 @@ function App() {
             <div className="cntnr flex text-white w-full h-[80%] ">
               <div className="limg relative w-1/2 h-full">
                 <img
-                  className="absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  className="absolute scale-[1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   src="./imag.png"
                   alt=""
                 />
               </div>
-              <div className="rg w-[30%] py-30">
-                <h1 className="text-8xl">Still Running,</h1>
-                <h1 className="text-8xl">Not Hunting</h1>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Distinctio possimus, asperiores nam, omnis inventore nesciunt
-                  a architecto eveniet saepe, ducimus necessitatibus at
-                  voluptate.
+              <div className="rg w-[30%] py-10">
+                <h1 className="text-5xl">Still Running,</h1>
+                <h1 className="text-5xl">Not Hunting</h1>
+                <p className="mt-5 text-xl font-[Helvetica_Now_Display]">
+                 GTA 6 is the highly anticipated open-world action game by Rockstar Games. Set in a vibrant, expansive city, it promises stunning graphics, dynamic characters, immersive storytelling, and next-gen gameplay mechanics, redefining the future of the Grand Theft Auto series.
                 </p>
-                <p className="mt-3 text-xl font-[Helvetica_Now_Display]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                  eius illum fugit eligendi nesciunt quia similique velit
-                  excepturi soluta tenetur illo repellat consectetur laborum
-                  eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
-                  autem sapiente.
-                </p>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                  eius illum fugit eligendi nesciunt quia similique velit
-                  excepturi soluta tenetur illo repellat consectetur laborum
-                  eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
-                  autem sapiente.
-                </p>
-                <button className="bg-yellow-500 px-10 py-10 text-black mt-10 text-4xl">
+                
+              
+                <button className="bg-yellow-500 px-6 py-6 text-black mt-10 text-4xl">
                   Download Now
                 </button>
               </div>
